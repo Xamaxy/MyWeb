@@ -193,8 +193,8 @@ img {
       #header-home .header-content p {
         margin-top: 2rem;
         font-size: 1.5rem;}
-        #header-home .social .fab,
-        #header-home .social .fas {
+        #header-home .social a .fab,
+        #header-home .social a .fas {
           transition: all 0.5s;
           margin-top: 1rem;          
           border: 2px #fff solid;
@@ -203,11 +203,12 @@ img {
           width: 40px;
           line-height: 40px;
           text-align: center;
-          padding: 0.5rem; }
+          padding: 0.5rem; 
+          color: #fff;}
           #header-home .social .fab{
             margin-right: 2rem;}
-            #header-home .social .fab:hover,
-            #header-home .social .fas:hover {
+            #header-home .social a .fab:hover,
+            #header-home .social a .fas:hover {
               background: #ffbc00;
               transform: scale(1.3);}
 
@@ -281,8 +282,8 @@ img {
     justify-content: space-between;
     height: 5rem;
     align-items: center; }
-    #main-footer .footer-content .social .fas,
-    #main-footer .footer-content .social .fab {
+    #main-footer .footer-content .social a .fas,
+    #main-footer .footer-content .social a .fab {
       transition: all 0.5s;
       margin-right: 1rem;
       border: 2px #fff solid;
@@ -291,9 +292,10 @@ img {
       width: 20px;
       line-height: 20px;
       text-align: center;
-      padding: 0.5rem; }
-      #main-footer .footer-content .social .fas:hover,
-      #main-footer .footer-content .social .fab:hover {
+      padding: 0.5rem; 
+      color: #fff;}
+      #main-footer .footer-content .social a .fas:hover,
+      #main-footer .footer-content .social a .fab:hover {
         background: #ffbc00;
         transform: scale(1.3); }
       
